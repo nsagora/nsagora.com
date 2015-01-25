@@ -502,6 +502,10 @@ label.valid {
     color: #D3492C
 }
 
+.btn-github:hover {
+    color: #666666;
+}
+
 .left {
     float: left
 }

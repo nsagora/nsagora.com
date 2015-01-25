@@ -31,4 +31,89 @@ background: #3498db;
     color:#3498db;
 }
 
+#page-events {
+	background: #757575;
+	color:#fff;
+	padding: 75px 0;
+}
+
+#page-events .spacer{
+	background: #fff;
+}
+
+#page-events .section-title{
+	color:#fff;
+}
+
+.next-events {
+	margin-top: 30px;
+}
+
+.next-events #allcal-embeded-calendar .allcal-event p {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.next-events #allcal-embeded-calendar .allcal-event a {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.next-events #allcal-embeded-calendar .allcal-ctas {
+}
+
+.next-events #allcal-embeded-calendar .allcal-ctas a:first-child {
+	margin: 40px auto 0;
+	width: 100%;
+	background: 0 0;
+	position: relative;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	padding: 12px 26px;
+	cursor: pointer;
+	border: 2px solid #4cddf3;
+	border-radius: 0;
+	letter-spacing: 2px;
+	pointer-events: auto;
+	border-color: #fff;
+
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+.next-events #allcal-embeded-calendar .allcal-ctas a:first-child:active,
+.next-events #allcal-embeded-calendar .allcal-ctas a:first-child:hover {
+	background: #fff;
+	border-color: #fff;
+	color: #3498db;
+	text-decoration: none;
+}
+
+.next-events #allcal-embeded-calendar .allcal-logo {
+	display: block;
+	position: relative;
+	margin-top: 5px;
+}
+
+.next-events #allcal-embeded-calendar .allcal-logo:before {
+	content: "powered by";
+	position: absolute;
+	top: 3px;
+	left: -56px;
+	line-height: 16px;
+	height: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	width: 56px;
+	font-size: 11px;
+	vertical-align: baseline;
+}
 
